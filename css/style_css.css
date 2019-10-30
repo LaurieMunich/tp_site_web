@@ -174,7 +174,7 @@ a {
 
 /*----------Bloc Work together Titre------*/
 #work {
-	width: 100%;
+	max-width: 100%;
 	margin-left: 35px;
 
 }
@@ -207,11 +207,8 @@ a {
 
 }
 
-
-
 .conteneurbloc h3 {
 	margin-left: 7%;
-
 }
 
 .conteneurbloc p {
@@ -266,6 +263,7 @@ a {
 	margin-left: 7%;
 }
 
+/*---------Bouton Free------*/
 .boutonfree {
 	position: absolute;
 	text-align: center;
@@ -283,6 +281,30 @@ a {
 	-moz-border-radius: 95px 95px 100px 100px;
 }
 
+.boutonfree:hover {
+
+	filter: opacity(50%);
+}
+
+#free2 {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: center;
+
+}
+
+/*#free2 span {
+
+	color: white;
+	position: absolute;
+	transition: transform 4s linear 0s;
+}
+
+#free2 span:hover {
+	transform: translateX(10px);
+}*/
+
 /*----------Titre------*/
 
 h4 {
@@ -294,7 +316,8 @@ h4 {
 
 /*----------Bloc Work together Task------*/
 .logos {
-	width: 75%;
+	max-width: 75%;
+	padding-bottom: 5%;
 	margin: 0 auto;
 }
 
@@ -304,27 +327,286 @@ h4 {
 	margin-left: 35px;
 }
 
-/*---------Bloc Work together Task------*/
+/*---------Bloc Focus on the Work------*/
+
+/*---------Bloc Steve Vega------*/
 .blocs {
-	width: 95%;
+	width: 90%;
 	display: flex;
 	flex-wrap: nowrap;
-	margin: 0 auto;
-	padding: 7%;
+	justify-content: space-between;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 0%;
+	padding: 2% 7% 2% 7%;
+}
+
+.intro {
+	width: 50%;
+	margin-left: 2%;
+	margin-right: 2%;
+
 }
 
 .blocs h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 40px;
+	width: 90%;
+
 }
 
 .blocs p {
-	width: 80%;
+	width: 60%;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-size: 17px;
 	color: gray;
 	text-align: justify;
 
 }
 
-.intro {
+.photoVega {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	margin-left: 36%;
+	margin-top: 1%;
+
+}
+
+.photoVega img {
+	margin-top: 3%;
+	width: 100px;
+	height: 90px;
+	background-size: contain;
+	border-radius: 36px 36px 36px 36px;
+	-webkit-border-radius: 36px 36px 36px 36px;
+	-moz-border-radius: 36px 36px 36px 36px;
+}
+
+.para {
+	width: 50%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-flex;
+	margin-top: 3%;
+	padding-bottom: 3%;
+	padding: 10px;
+	flex-direction: column;
+	background-color: rgba(220, 220, 220, 0.28);
+}
+
+.para p {
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.para img {
+	display: flex;
+	width: 20%;
+	height: 30px;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.huli {
+	display: flex;
+	width: 60%;
+	height: 8%;
+	margin-left: 6%;
+	margin-top: 3%;
+}
+
+/*---------Bloc Oleg Campbell------*/
+.photoOleg {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	margin-left: -2%;
+	margin-top: 5%;
+}
+
+.photoOleg img {
+	display: flex;
+	width: 100px;
+	height: 90px;
+	background-size: contain;
+	border-radius: 36px 36px 36px 36px;
+	-webkit-border-radius: 36px 36px 36px 36px;
+	-moz-border-radius: 36px 36px 36px 36px;
+}
+
+.replay {
+	display: flex;
+	width: 80%;
+	height: 35px;
+	margin-left: 4%;
+	margin-top: 1%;
+
+}
+
+/*---------Bloc Emily Dahl------*/
+.photoEmily {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	margin-left: 36%;
+	margin-top: 5%;
+}
+
+.photoEmily img {
+	display: flex;
+	width: 100px;
+	height: 90px;
+	background-size: contain;
+	border-radius: 36px 36px 36px 36px;
+	-webkit-border-radius: 36px 36px 36px 36px;
+	-moz-border-radius: 36px 36px 36px 36px;
+}
+
+.oc {
+	display: flex;
+	width: 40%;
+	height: 5%;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+/*-------Article Ready to use Templates--------*/
+#template {
+	max-width: 100%;
+	height: 300px;
+	background-color: #5d74ea;
+}
+
+.boutonInspire {
+	position: absolute;
+	text-align: center;
+	margin-left: 10%;
+	padding-top: 13px;
+	margin-top: 25%;
+	color: #5168ec;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background-color: white;
+	width: 15%;
+	min-height: 50px;
+	border-radius: 95px 95px 100px 100px;
+	-webkit-border-radius: 95px 95px 100px 100px;
+	-moz-border-radius: 95px 95px 100px 100px;
+}
+
+.boutonInspire:hover {}
+
+#template a {
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+#template p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+
+}
+
+#template h3 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	margin-top: 0;
+
+}
+
+#inspire {
+
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+/*-------Article Intégration--------*/
+#integration {
+	max-width: 100%;
+	height: 300px;
+	background-color: #75d1db;
+}
+
+#integration p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 0;
+	padding-top: 20px;
+	margin-left: 10%;
+
+}
+
+#integration h3 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 0;
+}
+
+.boutonIntegration {
+	position: absolute;
+	text-align: center;
+	margin-left: 10%;
+	padding-top: 13px;
+	margin-top: 25%;
+	color: #75d1db;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background-color: white;
+	width: 15%;
+	min-height: 50px;
+	border-radius: 95px 95px 100px 100px;
+	-webkit-border-radius: 95px 95px 100px 100px;
+	-moz-border-radius: 95px 95px 100px 100px;
+}
+
+.integration {
+
+	margin-left: 10%;
+	display: flex;
+
+}
+
+/*-------Article Growing Team--------*/
+#team {
+	max-width: 100%;
+}
+
+#team h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	margin-left: 10%;
+}
+
+.star1 {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-left: 5%;
+}
+
+.star1 img {
+	margin-left: 5%;
+}
+
+.star2 {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-left: 6%;
+}
+
+.star2 p {
+	margin-left: 3%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
