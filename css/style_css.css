@@ -581,6 +581,7 @@ h4 {
 /*-------Article Growing Team--------*/
 #team {
 	max-width: 100%;
+	float: left;
 }
 
 #team h3 {
@@ -606,7 +607,17 @@ h4 {
 }
 
 .star2 p {
-	margin-left: 3%;
+	margin-left: 4%;
 	font-family: 'Open Sans', sans-serif;
+	color: gray;
 	font-size: 15px;
+}
+
+.star2 p:nth-child(2) {
+	margin-left: 2%;
+	color: gray;
+}
+
+.team {
+	max-width: 100%;
 }
